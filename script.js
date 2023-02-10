@@ -45,6 +45,7 @@ let questionsCorrect = 0;
 
 btnRestart.onclick = () => {
     content.style.display = "flex";
+    content.style.flexDirection = "column";
     contentFinish.style.display = "none";
 
     currentIndex = 0;
